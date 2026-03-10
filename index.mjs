@@ -16,7 +16,7 @@ app.use("/auth", authRoutes);
 app.use("/admin", adminRoutes); 
 app.use("/instructor", instructorRoutes); 
 
-mongoose.connect(`mongodb+srv://gAurav:7L3Hg16LTz6iJ8Vr@ideamagixassignment.rodvsyg.mongodb.net/?appName=IdeamagixAssignment`); 
+mongoose.connect(`${process.env.mongoUrl}`); 
 
 app.listen(PORT, () => {
     console.log(`Example app is listening at http://localhost:${PORT}`)
