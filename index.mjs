@@ -24,9 +24,5 @@ app.listen(PORT, () => {
 
 
 
-// username = gAurav
-// pass = 7L3Hg16LTz6iJ8Vr
-// link = mongodb+srv://<db_username>:<db_password>@ideamagixassignment.rodvsyg.mongodb.net/?appName=IdeamagixAssignment
-
 
 
